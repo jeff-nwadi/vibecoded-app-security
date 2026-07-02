@@ -1,0 +1,26 @@
+{
+  "name": "vibecoded-app-security",
+  "version": "1.0.0",
+  "description": "Quick security scanner + Claude Skill for vibecoded web apps (exposed keys, disabled RLS, wildcard CORS, raw SQL concat, and more).",
+  "bin": {
+    "vibecoded-app-security": "./scripts/quick-scan.js",
+    "vibe-scan": "./scripts/quick-scan.js"
+  },
+  "main": "scripts/quick-scan.js",
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": ["security", "vibecoding", "supabase", "firebase", "owasp", "claude-skill", "cli"],
+  "license": "MIT",
+  "author": "your-name-here",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<you>/vibecoded-app-security.git"
+  },
+  "files": [
+    "scripts/quick-scan.js",
+    "SKILL.md",
+    "references",
+    "assets"
+  ]
+}

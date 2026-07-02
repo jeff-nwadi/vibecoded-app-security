@@ -23,7 +23,7 @@ vibecoded-app-security/
 
 ## Quick install
 
-**Run the scanner instantly, no install, no Python:**
+**Run the scanner instantly**
 ```bash
 npx github:jeff-nwadi/vibecoded-app-security /path/to/your/project
 npx github:jeff-nwadi/vibecoded-app-security /path/to/your/project --json
